@@ -8,7 +8,7 @@ Mini project repository for the course **MCT300 / MEC300 Mini Project** (B.Tech.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 This project presents an autonomous, simulation-verified **vision-guided dual-arm robotic manipulator** designed to bridge perception, spatial reasoning, and motion control. Operating within an industrial simulation workflow, the system uses artificial intelligence to perceive dynamic environments, compute 3D spatial positioning, map coordinate reference frames, and execute synchronized pick-and-place operations.
 
 ### Key Features
@@ -29,14 +29,17 @@ This project presents an autonomous, simulation-verified **vision-guided dual-ar
 
 ---
 
-## 📂 Repository Contents
+## 📂 Repository Contents & Links
 * `Mini_Project_Presentation_Perugu_Venkata_Aditya_v2.pptx`: Comprehensive review presentation detailing the 8-step methodology, system architecture, results, and evaluation curves.
+  * [View Presentation v2 Link](https://docs.google.com/presentation/d/1JboutIsVRSBazAftS-U3cfYh8CynYIXy/edit?usp=drive_link&ouid=110186731700141658012&rtpof=true&sd=true)
 * `Mini_Project_Presentation_Perugu_Venkata_Aditya.pptx`: Core slide deck highlighting the structural overview and visual progression.
+  * [View Core Presentation Link](https://docs.google.com/presentation/d/1DpI9osB0PRHa81bTwyb4ByhCCpzJuGMF/edit?usp=drive_link&ouid=110186731700141658012&rtpof=true&sd=true)
 * `Mini_Project_Report_Perugu_Venkata_Aditya.docx`: Complete project report containing bonafide certificates, literature surveys, mathematical derivations, implementation details, and model performance evaluation graphs.
+  * [View Project Report Document Link](https://docs.google.com/document/d/1LotfhD96-8xPyOB0W55eUKArGWZfWVrq/edit?usp=drive_link&ouid=110186731700141658012&rtpof=true&sd=true)
 
 ---
 
-## 🔄 Methodology (8-Step Pipeline)
+##  Methodology (8-Step Pipeline)
 1. **Synthetic Data Generation:** Automated creation of varied virtual scenes, lighting, and camera viewpoints in NVIDIA Isaac Sim.
 2. **Dataset Preparation:** Exporting annotations in YOLO format with normalized bounding box coordinates.
 3. **Model Training:** Training YOLOv8 on the synthetic dataset and saving optimal weights (`best.pt`).
@@ -48,7 +51,7 @@ This project presents an autonomous, simulation-verified **vision-guided dual-ar
 
 ---
 
-## ⚠️ Limitations & Future Scope
+##  Limitations & Future Scope
 * **Current Status:** Tested exclusively in a controlled simulation environment (NVIDIA Isaac Sim).
 * **Challenges Faced:** Action Graph path adjustments and frame alignment calibration were necessary to resolve initial coordinate discrepancies.
 * **Future Work:** Deployment onto physical hardware with a real RGB-D camera, integration of collision-aware planning, closed-loop ROS 2 IK execution, and 6D pose estimation for dense clutter.
